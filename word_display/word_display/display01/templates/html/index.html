@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Viewer</title>
+</head>
+<body>
+    <h1>Word display</h1>
+    <h2 id="word">Click Next to start</h2>
+    <h2>{{param1}}</h2>
+        <form method="POST">
+             {% csrf_token %}
+    <button type="submit">Next</button>
+        </form>
+</body>
+</html>
