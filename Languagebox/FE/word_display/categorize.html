@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Display</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Word Display</h1>
+
+  <!-- Fancy Radio Buttons -->
+  <div class="radio-inputs">
+    <label class="radio">
+      <input type="radio" name="length" value="3" checked>
+      <span class="name">3 Letter</span>
+    </label>
+    <label class="radio">
+      <input type="radio" name="length" value="4">
+      <span class="name">4 Letter</span>
+    </label>
+    <label class="radio">
+      <input type="radio" name="length" value="5">
+      <span class="name">5 Letter</span>
+    </label>
+  </div>
+
+  <!-- Fancy Next Button -->
+  <div style="margin-top: 20px;">
+    <button class="id" onclick="getNext()">Next</button>
+  </div>
+
+  <!-- Word Display -->
+  <div id="wordDisplay" style="margin-top:30px; font-size:28px; font-weight:bold; color:darkblue;">
+    Choose a word length and click Next!
+  </div>
+
+  <script>
+    function getNext() {
+      let length = document.querySelector('input[name="length"]:checked').value;
+      fetch("/get_word", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: "length=" + length
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.word) {
+          document.getElementById("wordDisplay").innerText = data.word;
+        } else {
+          document.getElementById("wordDisplay").innerText = data.message;
+        }
+      });
+    }
+  </script>
+</body>
+</html>

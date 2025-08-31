@@ -1,0 +1,73 @@
+Watching for file changes with StatReloader
+[30/Aug/2025 16:23:06] "GET /home/ HTTP/1.1" 200 366
+[30/Aug/2025 16:23:07] "GET /home/ HTTP/1.1" 200 366
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+August 30, 2025 - 16:22:50
+Django version 5.2.5, using settings 'word_display.settings'
+Starting development server at http://45.79.126.196:8001/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+[30/Aug/2025 16:23:26] "GET /home/ HTTP/1.1" 200 368
+[30/Aug/2025 16:23:34] "POST /home/ HTTP/1.1" 200 365
+[30/Aug/2025 16:23:35] "POST /home/ HTTP/1.1" 200 371
+[30/Aug/2025 16:23:35] "POST /home/ HTTP/1.1" 200 368
+[30/Aug/2025 16:23:36] "POST /home/ HTTP/1.1" 200 367
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+August 30, 2025 - 16:23:26
+Django version 5.2.5, using settings 'word_display.settings'
+Starting development server at http://45.79.126.196:8001/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+[30/Aug/2025 16:24:28] "GET /home/ HTTP/1.1" 200 368
+[30/Aug/2025 16:24:51] "POST /home/ HTTP/1.1" 200 371
+[30/Aug/2025 16:24:52] "POST /home/ HTTP/1.1" 200 367
+[30/Aug/2025 16:24:53] "POST /home/ HTTP/1.1" 200 368
+[30/Aug/2025 16:24:53] "POST /home/ HTTP/1.1" 200 365
+[30/Aug/2025 16:24:54] "POST /home/ HTTP/1.1" 200 365
+[30/Aug/2025 16:24:54] "POST /home/ HTTP/1.1" 200 372
+[30/Aug/2025 16:24:55] "POST /home/ HTTP/1.1" 200 365
+[30/Aug/2025 16:24:55] "POST /home/ HTTP/1.1" 200 370
+[30/Aug/2025 16:24:56] "POST /home/ HTTP/1.1" 200 366
+[30/Aug/2025 16:24:57] "POST /home/ HTTP/1.1" 200 365
+[30/Aug/2025 16:24:58] "POST /home/ HTTP/1.1" 200 367
+[30/Aug/2025 16:24:58] "POST /home/ HTTP/1.1" 200 367
+[30/Aug/2025 16:24:59] "POST /home/ HTTP/1.1" 200 367
+[30/Aug/2025 16:25:37] "GET /home/ HTTP/1.1" 200 365
+[30/Aug/2025 16:26:27] "GET /home/ HTTP/1.1" 200 370
+Not Found: /favicon.ico
+[30/Aug/2025 16:26:27] "GET /favicon.ico HTTP/1.1" 404 2456
+[30/Aug/2025 16:26:31] "POST /home/ HTTP/1.1" 200 365
+[30/Aug/2025 16:26:31] "POST /home/ HTTP/1.1" 200 369
+[30/Aug/2025 16:26:32] "POST /home/ HTTP/1.1" 200 369
+[30/Aug/2025 16:26:33] "GET /home/ HTTP/1.1" 200 366
+[30/Aug/2025 16:26:33] "POST /home/ HTTP/1.1" 200 367
+Not Found: /favicon.ico
+[30/Aug/2025 16:26:33] "GET /favicon.ico HTTP/1.1" 404 2456
+[30/Aug/2025 16:26:37] "POST /home/ HTTP/1.1" 200 365
+[30/Aug/2025 16:26:38] "POST /home/ HTTP/1.1" 200 371
+[30/Aug/2025 16:26:38,945] - Broken pipe from ('152.57.59.202', 47554)
+[30/Aug/2025 16:26:47] "POST /home/ HTTP/1.1" 200 365
+[30/Aug/2025 16:26:50] "POST /home/ HTTP/1.1" 200 365
+[30/Aug/2025 16:26:59] "GET /home/ HTTP/1.1" 200 368
+[30/Aug/2025 16:27:01] "POST /home/ HTTP/1.1" 200 367
+[30/Aug/2025 16:27:01] "POST /home/ HTTP/1.1" 200 370
+[30/Aug/2025 16:27:02] "POST /home/ HTTP/1.1" 200 368
+[30/Aug/2025 16:27:03] "POST /home/ HTTP/1.1" 200 369
+[30/Aug/2025 16:27:03] "POST /home/ HTTP/1.1" 200 364
+[30/Aug/2025 16:27:09,721] - Broken pipe from ('152.57.57.29', 38140)

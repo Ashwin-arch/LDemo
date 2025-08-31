@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Viewer</title>
+    <style>
+/* Page layout */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Title */
+h1 {
+  font-size: 32px;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+/* Word display */
+#word {
+  font-size: 26px;
+  font-weight: bold;
+  color: darkblue;
+  margin: 20px 0;
+}
+
+/* Flask param text */
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #444;
+  margin: 10px 0;
+}
+
+/* Form */
+form {
+  margin-top: 30px;
+}
+
+/* Button styling */
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: 1px solid #8F9092;
+  background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+  font-size: 15px;
+  font-weight: 600;
+  color: #606060;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+</style>
+
+</head>
+
+<body>
+    <h1>LanguageBox</h1>
+    <h2 id="word">Click Next to start</h2>
+    <h2>{{param1}}</h2>
+        <form method="POST">
+             {% csrf_token %}
+             {{form.as_p}}
+             <!-- <input type="number"> -->
+    <button type="submit">Next</button>
+        </form>
+        
+</body>
+</html>
